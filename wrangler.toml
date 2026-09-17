@@ -1,0 +1,10 @@
+name = "lastwave-backend"
+main = "index.js"
+compatibility_date = "2026-09-17"
+
+[durable_objects]
+bindings = [{ name = "ROOM_DO", class_name = "MusicRoom" }]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["MusicRoom"]
