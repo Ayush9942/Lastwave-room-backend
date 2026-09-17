@@ -7,4 +7,4 @@ bindings = [{ name = "ROOM_DO", class_name = "MusicRoom" }]
 
 [[migrations]]
 tag = "v1"
-new_classes = ["MusicRoom"]
+new_sqlite_classes = ["MusicRoom"]
